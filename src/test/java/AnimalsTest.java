@@ -73,6 +73,6 @@ public class AnimalsTest {
                 statusCode(200).
                 headers("Content-Type", "application/json").
                 log().body().
-                body("animals.size()",is(8));
+                body("animals.size()",is(3));
     }
 }

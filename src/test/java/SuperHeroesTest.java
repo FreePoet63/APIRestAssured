@@ -57,7 +57,7 @@ public class SuperHeroesTest {
                 headers("Content-Type","application/json;charset=UTF-8").
                 log().body().
                 assertThat()
-                .body("fullName",hasItems("Doctor Terekhov","Ztest","Nikolay Terekhov"));
+                .body("fullName",hasItems("Doctor Strange","Nikolay Terekhov"));
     }
 
     @Test
@@ -70,7 +70,7 @@ public class SuperHeroesTest {
                 headers("Content-Type","application/json;charset=UTF-8").
                 log().body().
                 assertThat()
-                .body("city",hasItem("Vladimir"));
+                .body("city",hasItem("New York"));
     }
 
     @Test
