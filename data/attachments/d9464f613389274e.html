@@ -1,0 +1,37 @@
+<div>PUT to http://localhost:3000/superheroes/3</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;id&quot;: &quot;3&quot;,
+    &quot;fullName&quot;: &quot;Natasha Terekhova&quot;,
+    &quot;birthDate&quot;: &quot;1963-07-18&quot;,
+    &quot;city&quot;: &quot;Novosibirsk&quot;,
+    &quot;mainSkill&quot;: &quot;Surgeon&quot;,
+    &quot;gender&quot;: &quot;F&quot;,
+    &quot;phone&quot;: &quot;777999333&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Accept: */*</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X PUT &#39;http://localhost:3000/superheroes/3&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;id&quot;: &quot;3&quot;,
+    &quot;fullName&quot;: &quot;Natasha Terekhova&quot;,
+    &quot;birthDate&quot;: &quot;1963-07-18&quot;,
+    &quot;city&quot;: &quot;Novosibirsk&quot;,
+    &quot;mainSkill&quot;: &quot;Surgeon&quot;,
+    &quot;gender&quot;: &quot;F&quot;,
+    &quot;phone&quot;: &quot;777999333&quot;
+}&#39;
+    </div>
+
