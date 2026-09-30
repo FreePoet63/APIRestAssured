@@ -1,0 +1,27 @@
+{
+  "superheroes": [
+    {
+      "id": 1,
+      "fullName": "Tony Stark",
+      "birthDate": "1970-05-29",
+      "city": "New York",
+      "mainSkill": "Engineer",
+      "gender": "M",
+      "phone": "79991234567"
+    },
+    {
+      "id": 2,
+      "fullName": "Natasha Romanoff",
+      "birthDate": "1984-11-22",
+      "city": "Moscow",
+      "mainSkill": "Spy",
+      "gender": "F",
+      "phone": "79997654321"
+    }
+  ],
+  "animal": [
+    { "type": "Snake", "name": "Python" },
+    { "type": "Zebra", "name": "Zed" },
+    { "type": "Elephant", "name": "Ellie" }
+  ]
+}

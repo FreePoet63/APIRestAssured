@@ -1,0 +1,83 @@
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# =========================
+# Maven
+# =========================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.properties
+
+# =========================
+# Java
+# =========================
+*.class
+*.log
+hs_err_pid*
+
+# =========================
+# Allure
+# =========================
+allure-results/
+allure-report/
+
+# =========================
+# Test reports
+# =========================
+test-output/
+surefire-reports/
+failsafe-reports/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Local configuration
+# =========================
+application-local.properties
+application-local.yml
+config-local.properties
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Eclipse
+# =========================
+.classpath
+.project
+.settings/
+
+# =========================
+# Gradle (если появится)
+# =========================
+.gradle/
+build/
