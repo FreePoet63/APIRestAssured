@@ -6,6 +6,7 @@ name: Java CI with Maven and Allure Report
 on:
   push:
     branches: [ master ]
+    workflow_dispatch:
 
 permissions:
   contents: write
