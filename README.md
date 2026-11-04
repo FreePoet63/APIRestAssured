@@ -82,7 +82,7 @@ mvn test -Dbase.url=http://другой-хост/superheroes -Danimal.url=http:/
 2. прогоняет `mvn clean test`;
 3. собирает Allure-отчёт и публикует его на GitHub Pages, даже если часть тестов упала.
 
-Актуальный отчёт: `https://FreePoet63.github.io/APIRestAssured/`
+Актуальный отчёт: [Online отчёт](https://FreePoet63.github.io/APIRestAssured/)
 
 ## Известные особенности
 
